@@ -34,7 +34,7 @@ def bot_text(message):
 	elif message.text == 'Мой nickname':
 		bot.send_message(message.chat.id,f'Твой nickname:{message.from_user.first_name}{message.from_user.last_name}')
 	elif message.text == 'Мой IP':
-		bot.send_message(message.chat.id,f'Твой IP:{Test.IP}')
+		#bot.send_message(message.chat.id,f'Твой IP:{Test.IP}')
 
 bot.polling(none_stop=True,interval=0)
 print("Бот запущен...")
