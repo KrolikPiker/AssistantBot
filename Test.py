@@ -1,3 +1,3 @@
 import requests
-URL = "https://ramziv.com/ip"
-IP = requests.get(URL).text 
+URL = "https://ramziv.com/p"
+IP = requests.get(URL).text
